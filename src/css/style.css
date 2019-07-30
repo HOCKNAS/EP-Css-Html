@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "CircularStd-Black";
   src: url("../fonts/CircularStd-Black.otf") format("opentype");
@@ -195,15 +196,118 @@ header nav div a:hover {
   left: 10%;
   top: 80%;
   bottom: 0;
+  display: grid;
+  grid-template-columns: 38% 24% 38%;
+  grid-template-rows: 90% 10%;
+}
+.buscador .casillasA{
+  grid-column: 1;
+  grid-row:1;
+  
+  background: rgb(255, 255, 255);
+  display:grid;
+  grid-template-rows: 20% 40% 40%;
+  grid-template-columns: 40% 60%;
+  grid-gap:1%;
+}
+
+.casillasA  .textoA {
+  grid-row:1;
+  grid-column: 2;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  color:#00802c;
+  
 }
-.buscador .casillas {
-  align-self: flex-start;
-  width: 33%;
-  height: 90%;
-  background: #000;
+
+
+.casillasA .imagen .imag{
+   width: 20%;
+   height: 100%;
+  
 }
+.casillasA .imagen{
+  grid-row: 2;
+  grid-column: 1;
+  
+  display: grid;
+
+  justify-items: right;
+  
+}
+.casillasA .txt {
+ grid-row:2;
+ grid-column: 2;
+ 
+ display: grid;
+ grid-template-rows: 7% 30% 16% 30% 7%;
+ 
+}
+.casillasA .txt1{
+  grid-row:2;
+  width: 90%;
+}
+.casillasA .txt2 {
+  grid-row:4;
+  width: 90%;
+}
+.buscador .casillasB
+{
+
+  grid-column: 2;
+  grid-row: 1;
+  background: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns:15% 85%;
+  grid-template-rows: 20% 40% 40%; 
+  
+}
+
+.buscador .casillasB .textoB{
+  grid-column: 2;
+  grid-row: 1;
+  color:#00802c;
+  display: flex;
+  align-items: center;
+}
+.calendario{
+  grid-column:1;
+  grid-row: 2;
+  display: flex;
+  align-items: initial;
+}
+.im 
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.buscador .casillasB .fechas{
+  grid-column:2;
+  grid-row:2;
+  display: grid;
+  grid-template-rows: 7% 30% 16% 30% 7%;
+  
+}
+
+.txtba{
+  grid-row:2;
+  width: 90%;
+}
+
+.txtbb{
+  grid-row:4;
+  width: 90%;
+}
+
+.checks{
+  grid-column: 2;
+  grid-row:3;
+
+}
+
+
 
 @media screen and (max-width: 800px) {
   .contenedor {
