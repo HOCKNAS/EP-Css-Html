@@ -1,0 +1,80 @@
+.ainside{
+    display: grid;
+    grid-template-rows: 11vw 155vw 37vw 66vw 66vw 66vw 111vw 143vw;
+}
+.heead{
+
+    grid-row: 1;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 4% 92% 4%;
+}
+.shead{
+    grid-column:2;
+    display: grid;
+    grid-template-columns: 60% 30% 10%;
+}
+.exppal{
+grid-column: 1;
+
+max-height: 65%;
+}
+.butones{
+    grid-column: 2;
+    display: grid;
+    grid-template: 60% 40%;
+    justify-content: right;
+    
+    background-color: #eeeeee;
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    border: 0px solid #000000;
+    max-height: 70%;
+   
+}
+.Saud{
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    align-content: center;
+}
+.ssaud{
+    grid-column: 2;
+    display: flex;
+    
+
+}
+.audio{
+   max-width: 50%;
+}
+.Susu{
+    grid-column: 2;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+.usu{
+    
+    max-width: 50%;
+}
+.heead .shead .cmennu{
+    grid-column: 3;
+    display: grid; 
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    
+ 
+}
+.cmennu .scmennu{
+ grid-column: 2;
+ display: grid;
+ grid-template-rows: 100%;
+ justify-content: center;
+}
+.cmennu .scmennu .mennu{
+    
+    max-width: 99%;
+}

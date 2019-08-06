@@ -1,0 +1,439 @@
+.allinside{
+display: grid;
+grid-template-rows:14vw 33vw 41vw 40vw 42vw;
+
+}
+
+.headerr{
+    grid-row: 1;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+.Sheader{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows:25% 75%;
+}
+.sheaderra
+{
+   
+    grid-row:1;
+    display: grid;
+    grid-template-columns: 75% 10% 15%;
+    grid-column-gap: 1%;
+}
+.ssheaderraa{
+grid-column: 1;
+
+display: grid;
+grid-template-columns: 48% 48%;
+grid-column-gap: 2%;
+justify-items: right;
+align-content: center;
+}
+.ssheaderraa .ssh{
+    grid-column: 2;
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.drt{
+    background: #39c72f;
+    
+    color: white;
+}
+.drt:hover{
+    background: #00802c;
+    color:white;
+}
+/*
+flex-flow: row;
+*/
+.ssheaderraa .ssh .kol {
+    max-height: 50%;    
+}
+.ssheaderrab{
+grid-column: 2;
+top:25%;
+display: grid;
+align-content: space-around;
+
+}
+.ssheaderrab .hss{
+    display: flex;
+    flex-flow: row ;
+    
+    justify-content: space-around;
+}
+
+.ssheaderrab .hss .kol{
+    
+    max-height: 50%;
+}
+.ssheaderrac{
+grid-column: 3;
+ 
+display: flex;
+flex-flow:row nowrap;
+justify-content: left;
+}
+.ssheaderrac .hss{
+ position: relative;   
+display: flex;
+justify-items: space-between;
+top:28%;
+}
+.ssheaderrac .hss .kol{
+    position: relative;
+    max-height: 45%;
+    
+    bottom: 20%;
+}
+.sheaderrb{
+    
+    grid-row:2;
+    display:grid;
+    grid-template-columns: 45% 48% 7%;
+}
+.ssheaderrba{
+  grid-column: 1;
+  
+  display: grid;
+  justify-content: left;
+  align-items: center;
+}
+.ssheaderrba .kol{
+ max-height: 50%;
+ 
+}
+.ssheaderrbb{
+grid-column: 2;
+
+display: grid;
+justify-content: right;
+align-content: center;
+}
+.ssheaderrbb .bbc{
+    display: grid;
+    justify-content: space-around;
+}
+
+.ssheaderrbc{
+grid-column: 3;
+display: flex;
+flex-flow: row nowrap;
+justify-items: center;
+align-items: center;
+}
+.ssheaderrbc .kol{
+
+max-width: 70%;
+border-right:solid; 
+}
+.ssheaderrbc .kl{
+    max-width: 60%;
+    }
+/*
+fin encabezado
+*/
+.banner{
+    grid-row: 2;
+    background-image: url(https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/02/01/Recortada/img_azarzoso_20180201-124709_imagenes_lv_propias_azarzoso_foto5-kjaF-U44445823725ekB-992x558@LaVanguardia-Web.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    display:grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 15% 85%;
+    border-radius: 0px 0px 50% 30%;
+-moz-border-radius: 0px 0px 50% 30%;
+-webkit-border-radius: 0px 0px 50% 30%;
+border: 0px solid #fff;
+}
+.selecc{
+    grid-column: 2; 
+    grid-row: 1;
+    
+    display:grid;
+    grid-template-columns: 5% 90% 5%;
+    
+    
+}
+.selecc .sselecc{
+    grid-row: 1;
+    grid-column: 2;
+    background: white;
+    
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+    justify-content:space-around; 
+    border-radius: 0px 0px 20px 20px;
+-moz-border-radius: 0px 0px 20px 20px;
+-webkit-border-radius: 0px 0px 20px 20px;
+border: 0px solid #000000;
+}
+.drt{
+    font-size: 110%;
+    width: 10%;
+    
+}
+
+.Quienes-somos{
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    
+    grid-template-columns: 50% 50%;
+    align-content: center;
+}
+.sqs{
+    grid-row: 1;
+    display: grid;
+    grid-template-rows:50% 50%; 
+    grid-template-columns: 100%;
+    color:#00b150;
+    
+    font-size: 6vw;
+}
+.txs1{
+    color: white;
+    font-size: 75%;
+}
+/*
+fin banner
+ */
+.nuestraH{
+    grid-row:3;
+    
+    display: grid;
+    grid-template-rows:33% 67%;
+
+
+}
+.nuess{
+grid-row: 1;
+
+display: grid;
+grid-template-rows: 34% 33% 33%;     
+}
+.lett{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.slett{
+    grid-column: 2;
+    display: flex;
+    justify-items: left;
+    font-size: 1vw;
+}
+
+.nuesi{
+    
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 30% 7% 50% 13%;
+}
+.nuesib{
+grid-column: 3;
+display:grid;
+grid-template-rows: 15% 25% 60%;
+
+}
+.nht{
+    grid-row: 1;
+    
+}
+.nht label{
+    color: #39c72f;
+    font-size: 2vw;
+}
+.nhp{
+    grid-row: 2;
+    
+    display: flex;
+    align-content: flex-start;
+}
+.nhp p{
+     color:#5d5d5d;
+     font-size: 1vw;
+     
+}
+.rty{
+    color: #00b150;
+    
+}
+.nhsp{
+    grid-row:3;
+    
+    display:grid;
+    grid-template-columns:34% 67%; 
+
+}
+.snhspa{
+    grid-column: 1;
+    
+    display: flex;
+   
+    border-right-color: #39c72f;
+    border-right-style: solid;
+    border-right-width: 7%;
+}
+.snhspa p{
+    
+    text-align: right;
+    color: #39c72f;
+    margin-top:5%;
+    margin-right: 8%;
+ font-size: 1.5vw;
+}
+.snhspb{
+    grid-column: 2;
+  
+    display: grid; 
+
+}
+.snhspb p{
+    text-align: left;
+    color:#5d5d5d;
+    margin-left: 8%;
+    font-size:1vw;
+}
+
+.nuesia{
+    grid-column: 1;
+    display:grid;
+    grid-template-rows:5% 95% ;
+    grid-template-columns: 95% 5%; 
+}
+.snuesia{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #24F110;
+    
+}
+.fraa{
+    grid-column: 1;
+    grid-row:1;
+    display: grid;
+    grid-template-columns: 25% 75%;
+     
+}
+.fra{
+    grid-column: 2;
+    grid-row:2;
+    display: grid;
+    grid-template-rows: 75% 25%;
+
+}
+.egree{
+    grid-column:2;
+    background: #00b150;
+}
+.egre{
+    grid-row:1;
+    background: #00b150;
+}
+.lees{
+    grid-column: 2;
+    grid-row: 1;
+    background: #00b150;
+}
+
+/*
+fin nuestra historia
+*/
+
+.eexp{
+    grid-row:4;
+    
+    display:grid;
+    grid-template-rows:20% 50% 30%;
+
+}
+.eexp .seexp{
+    grid-row:2;
+    
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+.seetx{
+    grid-column: 2;
+    
+    
+    
+}
+.seetx p{
+    margin-top: 10%;
+    margin-left:5%;
+    margin-right:15%; 
+    color:#5d5d5d;
+    text-align: left;
+    font-size: 2vw;
+
+}
+.seimg{
+    grid-column: 1;
+    background-image:url(https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/02/01/Recortada/img_azarzoso_20180201-124709_imagenes_lv_propias_azarzoso_foto5-kjaF-U44445823725ekB-992x558@LaVanguardia-Web.jpg); 
+    background-repeat: no-repeat;
+    background-position:right center ;
+    background-size: 75% 70%; 
+    display: grid;
+    grid-template-columns: 40% 60%
+}
+.sgre{
+    grid-column: 1;
+    background: #39c72f;
+    opacity: 0.8;
+}
+/*
+fin experiencia de viaje
+adsdasda
+*/
+.pie{
+    grid-row:5;
+    background-color: yellow;
+    display: grid;
+    grid-template-rows:30% 55% 15%;
+}
+.spiea{
+    grid-row: 1;
+    background-color:#00802c;
+    display: grid;
+    grid-template-columns: 15% 25% 15% 15% 30%;
+    grid-template-rows:35% 40% 25%
+}
+.spieaa{
+    grid-row: 2;
+    grid-column:2;
+    
+    display: grid;
+    line-height: 60%;
+    align-items: center;
+    border-right-color:white; 
+    border-right-style: solid;
+    font-weight: 900;
+}
+.tca{
+    color: white;
+    font-size: 4.5vw;
+    
+    
+}
+.tcb{
+    color:white;
+    font-size: 2.5vw;
+   
+}
+.tcc{
+    color:white;
+}
+.spieab{
+    grid-row: 2;
+    grid-column:3;
+    background: red;
+}
